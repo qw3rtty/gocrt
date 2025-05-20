@@ -1,14 +1,14 @@
 # gocrt
 `gocrt` is a command line client for [crt.sh](https://crt.sh/) written in golang. 
 ```text
-$ gocrt -o gitlab-demo < domains.txt
+$ gocrt -o github-demo < domains.txt
 Get subdomains from: test.de
 Get subdomains from: example.com
 Save subdomains from: test.de -> saved
 Save subdomains from: example.com -> saved
 [✓] Done
 
-$ ls -ls gitlab-demo
+$ ls -ls github-demo
 drwxr-xr-x 2 qwertty qwertty 4096 16. Okt 14:29 .
 drwxr-xr-x 5 qewrtty qwertty 4096 16. Okt 14:29 ..
 -rw-r--r-- 1 qewrtty qwertty 133 16. Okt 14:29 example.com
@@ -16,7 +16,7 @@ drwxr-xr-x 5 qewrtty qwertty 4096 16. Okt 14:29 ..
 ```
 
 ## Installation
-`gocrt` has no runtime dependencies. You can just [download a binary](https://gitlab.com/qwertty/gocrt/releases) for Linux, Mac, Windows or FreeBSD and run it. 
+`gocrt` has no runtime dependencies. You can just [download a binary](https://github.com/qw3rtty/gocrt/releases) for Linux, Mac, Windows or FreeBSD and run it. 
 Put the binary in your `$PATH` (e.g. in `/usr/local/bin`) to make it easy to use:
 ```bash
 $ tar xzf gocrt-linux-amd64-0.0.1.tgz
@@ -25,7 +25,7 @@ $ sudo mv gocrt /usr/local/bin/
 
 If you've got Go installed and configured you can install `gocrt` with:
 ```bash
-$ go get -u gitlab.com/qwertty/gocrt
+$ go install github.com/qw3rtty/gocrt@latest
 ```
 
 ## Usage 
