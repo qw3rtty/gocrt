@@ -16,7 +16,7 @@ import (
 )
 
 // gocrt version
-var gocrtVersion = "0.0.1-dev"
+var gocrtVersion = "0.1.0"
 
 // Wrapper for printing messages
 // - used to print only subdomains to STDOUT 
